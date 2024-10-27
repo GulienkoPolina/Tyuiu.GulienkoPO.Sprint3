@@ -1,4 +1,4 @@
-﻿using Tyuiu.GulienkoPO.Sprint3.Task2.v8.Lib;
+﻿using Tyuiu.GulienkoPO.Sprint3.Task2.V8.Lib;
 
 namespace Tyuiu.GulienkoPO.Sprint3.Task2.V8
 {
