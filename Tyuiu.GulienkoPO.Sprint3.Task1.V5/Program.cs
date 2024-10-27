@@ -20,7 +20,7 @@ namespace Tyuiu.GulienkoPO.Sprint3.Task1.V5
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("3.195");
+            Console.WriteLine("Произведение ряда: " + Math.Round(ds.GetMultiplySeries(startValue, stopValue), 3));
 
             Console.ReadKey();
         }
