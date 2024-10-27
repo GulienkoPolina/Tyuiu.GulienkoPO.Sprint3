@@ -6,10 +6,10 @@ namespace Tyuiu.GulienkoPO.Sprint3.Task1.V5.Lib
     {
         public double GetMultiplySeries(int startValue, int stopValue)
         {
-            double MultSeries = 1;
+            double MultSeries = 1.0;
             while (startValue < stopValue)
             {
-                MultSeries = MultSeries * (Math.Cos(0.1) + Math.Pow(startValue, (-2)));
+                MultSeries = MultSeries * (Math.Cos(0.1) + Math.Pow(startValue, -2));
                 startValue++;
             }
             return Math.Round(MultSeries, 3);
