@@ -9,7 +9,7 @@ namespace Tyuiu.GulienkoPO.Sprint3.Task2.V8.Lib
             double MultiplySeries = 0.0;
             do
             {
-                MultiplySeries = MultiplySeries * (1 / Math.Pow((Math.Cos(5) + 1), 2));
+                MultiplySeries = MultiplySeries * (1 / ((Math.Cos(5) + 1) * (Math.Cos(5) + 1)));
                 startValue++;
             } while (startValue < stopValue);
             return Math.Round(MultiplySeries, 3);
