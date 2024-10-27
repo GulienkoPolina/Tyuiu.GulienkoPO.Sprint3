@@ -6,7 +6,7 @@ namespace Tyuiu.GulienkoPO.Sprint3.Task2.V8.Lib
     {
         public double GetMultiplySeries(int startValue, int stopValue)
         {
-            double MultiplySeries = 0.0;
+            double MultiplySeries = 1.0;
             do
             {
                 MultiplySeries = MultiplySeries * (1 / ((Math.Cos(5) + 1) * (Math.Cos(5) + 1)));
