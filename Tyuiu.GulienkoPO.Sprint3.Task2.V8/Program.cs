@@ -21,7 +21,6 @@ namespace Tyuiu.GulienkoPO.Sprint3.Task2.V8
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Произведение ряда: " + Math.Round(ds.GetMultiplySeries(startValue, stopValue), 3));
-
             Console.ReadKey();
         }
     }
