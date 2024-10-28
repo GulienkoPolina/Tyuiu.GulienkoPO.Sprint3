@@ -21,7 +21,6 @@ namespace Tyuiu.GulienkoPO.Sprint3.Task3.V3
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Минимальное количество символов = " + ds.GetMinCharCount(value, chr));
-
             Console.ReadKey();
         }
     }
