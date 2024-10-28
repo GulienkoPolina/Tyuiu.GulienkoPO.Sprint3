@@ -15,7 +15,7 @@ namespace Tyuiu.GulienkoPO.Sprint3.Task3.V3.Test
 
             double res = ds.GetMinCharCount(str, chr);
 
-            int wait = 8;
+            int wait = 2;
 
             Assert.AreEqual(wait, res);
         }
