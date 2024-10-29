@@ -8,7 +8,7 @@ namespace Tyuiu.GulienkoPO.Sprint3.Task6.V7.Lib
         {
             int x;
             int sum = 0;
-            for (x = startValue; x < stopValue; x++)
+            for (x = startValue; x <= stopValue; x++)
             {
                 for (int d = 1; d <= x; d++)
                 {
